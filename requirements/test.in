@@ -1,0 +1,14 @@
+# Packages required for testing
+-r base.txt
+
+black==21.12b0
+click==8.0.4  # https://github.com/psf/black/issues/2964
+coverage>=6.2,<6.3
+diff-cover>=1.0.2,<1.1
+isort>=5.10,<5.11
+packaging==20.4
+pycodestyle>=2.7,<2.8
+pylint>=2.13,<2.14
+pyparsing==2.4.7
+pytest==6.2.5
+pytest-cov>=2.10.1
