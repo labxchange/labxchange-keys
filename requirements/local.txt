@@ -1,0 +1,8 @@
+# Packages required for local development
+-r test.txt
+
+ipython
+pip-tools==6.4.0
+
+# Install this package to register the OpaqueKeys
+-e .
